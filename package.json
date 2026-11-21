@@ -1,0 +1,25 @@
+{
+  "name": "nordved-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.0.0",
+    "netlify-cli": "^27.20.1"
+  },
+  "allowScripts": {
+    "netlify-cli@27.20.1": true,
+    "esbuild@0.28.1": true
+  }
+}
